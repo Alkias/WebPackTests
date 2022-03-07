@@ -21,11 +21,11 @@ O στόχος είναι να έχουμε τα script χωρισμένα σε 
   `npm install webpack webpack-cli --save-dev`
 
 
-Το package.json, με αλλαγμένο το path για την main 
+- Το package.json, με αλλαγμένο το path για την main 
 
-από `"main": "index.js",` 
+  από `"main": "index.js",` 
 
-σε `"main": "./src/index.js",`:
+  σε `"main": "./src/index.js",`:
 
 ```json
 {
