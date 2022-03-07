@@ -87,7 +87,7 @@ O στόχος είναι να έχουμε τα script χωρισμένα σε 
 
 αλλάζουμε το webpack.config ως εξής
 
-```json
+```js
 test: /\.s[ac]ss$/i,
 use: [
   // Creates `style` nodes from JS strings
