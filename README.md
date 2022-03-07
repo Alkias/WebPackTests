@@ -163,7 +163,7 @@ The HtmlWebpackPlugin simplifies creation of HTML files to serve your webpack bu
 
 **`npm install --save-dev html-webpack-plugin`**
 
-```json
+```js
 const path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -197,7 +197,7 @@ module.exports = {
 ```
 
 και 
-```json
+```js
       {
         test: /\.svg$/,
         type: 'asset/resource',
@@ -210,7 +210,7 @@ module.exports = {
 
 `npm install svgo-loader --save-dev`
 και
-```json
+```js
       {
         test: /\.svg$/,
         type: 'asset/inline',
