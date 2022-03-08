@@ -52,6 +52,11 @@ O στόχος είναι να έχουμε τα script χωρισμένα σε 
 
 - Εγκαθιστούμε το css framework bootstrap
 `npm install bootstrap`
+  και λόγω του ότι θα εγκατασταθεί η bootstrap 5    
+  έχει εξάρτηση από την **`@popperjs/core`**     
+
+- Εγκαθιστούμε και αυτή την εξάρτηση με την εντολή:
+  `npm install @popperjs/core --save`
 
 - Εκτελούμε ξανά την εντολή
 `npm install`
